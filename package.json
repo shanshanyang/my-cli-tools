@@ -1,0 +1,17 @@
+{
+  "name": "@shanshanyang/github-deploy",
+  "version": "1.0.4",
+  "description": "Deploy to github",
+  "bin": {
+    "github-commit": "bin/commit.js",
+    "github-push": "bin/push.js",
+    "github-deploy": "bin/deploy.js"
+  },
+  "preferGlobal": true,
+  "author": "Shanshan Yang <shanshanyang.ny@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "0.6.0",
+    "yargs": "4.3.2"
+  }
+}
